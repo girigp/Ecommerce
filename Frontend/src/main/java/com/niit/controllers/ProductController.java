@@ -106,7 +106,7 @@ public class ProductController {
 	public boolean saveImage(MultipartFile filedet, int productId) {
 		System.out.println("Inside save image method");
 		boolean flag = false;
-		String imagePath = "G:\\DTE Project\\ShoppingCartFrontend\\src\\main\\webapp\\resources\\images\\";
+		String imagePath = "E:\\Project12345\\Frontend\\src\\main\\webapp\\resources\\images\\";
 		imagePath = imagePath + String.valueOf(productId) + ".jpg";
 		System.out.println("Image Path: " + imagePath);
 		File image = new File(imagePath);
